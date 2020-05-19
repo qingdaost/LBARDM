@@ -18,7 +18,7 @@ CROSS_RATE = 0.9  # mating probability
 MUTATION_RATE = 0.1  # mutation probability
 N_GENERATIONS = 50
 capacity = [1, 2, 4, 8, 16, 48, 64, 96]
-budget_rate = [0.1, 0.2, 0.3, 0.4, 0.5]
+budget_rate = [0.1, 0.2, 0.3, 0.4, 0.7]
 run = 30
 
 # For each workflow
