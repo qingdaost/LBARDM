@@ -1,4 +1,4 @@
-#dataset for business applications
+#dataset for LBARDM
 
 #82 user centres
 latencymap = [[   0,    5,   52,   18,   15,   26,   40,   50,   47,   47,   30,   50,
