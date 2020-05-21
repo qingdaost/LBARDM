@@ -360,21 +360,15 @@ for i in range(len(Tset)):
                     ind = pop[i]
                     # print(ind)
                     cost = get_cost(ind)
-
-
-                    for i in range(len(pop)):
-                        ind = pop[i]
-                        # print(ind)
-                        cost = get_cost(ind)
-                        # print(cost)
-                        # death penalty
-                        if cost > budget or ind[0].count(1) == 0:
-                            # print("change")
-                            pop[i] = elite
-                            count += 1
-                            rtlist[i] = best
-                        else:
-                            rtlist[i] = get_rt(ind)
+                    # print(cost)
+                    # death penalty
+                    if cost > budget or ind[0].count(1) == 0:
+                        # print("change")
+                        pop[i] = elite
+                        count += 1
+                        rtlist[i] = best
+                    else:
+                        rtlist[i] = get_rt(ind)
 
                 # print(count/POP_SIZE)
                 # check performance
