@@ -5,4 +5,5 @@ Paper and code for Location-aware and Budget-constrained Application Replication
 
 https://ieeexplore.ieee.org/document/9284112
 
-Dataset is helper.py
+Dataset: helper.py
+Facebook subscribers by January 2020: FacebookUserData.csv
